@@ -29,17 +29,17 @@ document.body.appendChild(canvas);
 var ctx = canvas.getContext('2d');
 ctx.strokeStyle = 'rgba(0, 0, 0, 0.7)';
 ctx.beginPath();
-ctx.font = "bold 100px 'MS PƒSƒVƒbƒN'";
-ctx.fillText("ƒAƒiƒƒO•ú‘—",0,height-300);
-ctx.fillText("I—¹‚Ü‚Å",0,height-200);
-ctx.fillText("‚ ‚Æ",0,height-100);
+ctx.font = "bold 100px 'MS Pã‚´ã‚·ãƒƒã‚¯'";
+ctx.fillText("ã‚¢ãƒŠãƒ­ã‚°æ”¾é€",0,height-300);
+ctx.fillText("çµ‚äº†ã¾ã§",0,height-200);
+ctx.fillText("ã‚ã¨",0,height-100);
 var r = getRest();
-var metrics = ctx.measureText("‚ ‚Æ");
+var metrics = ctx.measureText("ã‚ã¨");
 var a1 = metrics.width;
 ctx.fillText(""+r,a1,height-100);
 metrics = ctx.measureText(""+r);
 var a2 = metrics.width;
-ctx.fillText("“ú",a1+a2,height-100);
+ctx.fillText("æ—¥",a1+a2,height-100);
 }
 function myaddevent(eventname, fc){
 if(window.addEventListener){ window.addEventListener(eventname, fc, false); }
